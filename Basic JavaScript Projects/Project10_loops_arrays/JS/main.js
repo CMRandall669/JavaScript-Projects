@@ -1,3 +1,14 @@
+function count_To_Ten() { //Function running the while loop
+    var Digit = ""; //variable that will represent the output
+    var X = 1; //variable used as a starting point
+    while (X < 11) { //this is saying while out value for x is less than 11 add one and repeat
+        Digit += "<br>" + X;
+        X++; //once it hits 11 it ends the loop
+    }
+    document.getElementById("Counting_to_Ten").innerHTML = Digit;
+}
+
+
 function length_Function() { //function created
     var X = "Hello World!"; //variable used by the function declared
     var Y = X.length; //variable that will be the result of the length function
